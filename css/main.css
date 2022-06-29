@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/rubik-v20-latin_cyrillic-regular.woff2") format("woff2"),
+    url("../fonts/rubik-v20-latin_cyrillic-regular.woff") format("woff"); 
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-display: swap;
+    src: url("../fonts/rubik-v20-latin_cyrillic-500.woff2") format("woff2"),
+    url("../fonts/rubik-v20-latin_cyrillic-500.woff") format("woff");
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+body{
+    margin: 0;
+}
+.site-section-title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+.site-section-box{
+    display: flex;
+}
+.site-section-form-name{
+    width: 696px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.site-section-form-name-input{
+    width: 343px;
+    padding-top: 18px;
+    padding-right: 0;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.5;
+    background: #fff;
+    border: 1px solid #00000033;
+    border-radius: 10px;
+}
+.site-section-form-phone-number-input{
+    width: 343px;
+    padding-top: 18px;
+    padding-right: 0;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.5;
+    background: #fff;
+    border: 1px solid #00000033;
+    border-radius: 10px;
+}
+.site-section-form-email-input{
+    width: 696px;
+    padding-top: 18px;
+    padding-right: 0;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.5;
+    background: #fff;
+    border: 1px solid #00000033;
+    border-radius: 10px;
+}
+.site-section-text-input{
+    width: 696px;
+    padding-top: 18px;
+    padding-right: 0;
+    padding-bottom: 143px;
+    padding-left: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.5;
+    background: #fff;
+    border: 1px solid #00000033;
+    border-radius: 10px;
+}
+.site-section-and-list{
+    padding-top: 20px;
+    padding-left: 25px;
+    margin: 0;
+    list-style: none;
+    background: #F6F6F6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.site-section-and-item{
+    width: 494px;
+    border-bottom: 1px solid #d2d2d2;
+    padding-bottom: 20px;   
+}
+.item{
+    border-bottom: 0;
+}
+.site-section-and-title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 7px;
+    line-height: 24px;
+    color: #000000;
+}
+.site-section-and-link{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.site-section-login{
+    width: 145px;
+    height: 53px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 17px 30px;
+    background: #7297EF;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 671px;
+    
+    
+}
